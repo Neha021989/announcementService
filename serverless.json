@@ -25,7 +25,7 @@
 					"Version": "2012-10-17",
 					"Statement": [
 	          {
-	          "Action": ["s3:Get*","s3:List*","dynamodb:*"],
+	          "Action": ["s3:Get*","s3:List*","dynamodb:*","sns:*"],
 	          "Resource": "*",
 	          "Effect": "Allow"
 	        }

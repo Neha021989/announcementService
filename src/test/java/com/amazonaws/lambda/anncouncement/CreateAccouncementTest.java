@@ -24,7 +24,7 @@ public class CreateAccouncementTest {
 	@BeforeClass
 	public static void createInput() throws IOException {
 		// TODO: set up your sample input object here.
-		Announcement announcement = new Announcement("announcement2", "holiday announcement", LocalDate.now());
+		Announcement announcement = new Announcement("announcement3", "Ramnavmi is a holiday", LocalDate.now());
 		input = new HashMap();
 		ObjectMapper objectMapper = new ObjectMapper();
 		objectMapper.registerModule(new JavaTimeModule());
